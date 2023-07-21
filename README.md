@@ -13,6 +13,12 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
 
+Due to the limitations on uploading large files to GitHub, we have made a decision to consider only the first 50,000 rows from the original dataset as the input file for our project. By selecting a subset of the data, we aim to comply with GitHub's file size restrictions while still maintaining a representative sample that allows us to perform exploratory data analysis, model training, and initial evaluations. Although this approach involves a reduction in the dataset size, we believe it will enable us to develop and share our code and results more effectively, facilitating collaboration and making it easier for others to reproduce our experiments. Additionally, we will provide clear instructions in the README on how to obtain the full dataset from an external source or request access to it for further investigations.
+You can access the original file as below:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
+
+
+
 Methodology
 Data Preprocessing:
 The dataset is loaded, and the features and labels are separated.
